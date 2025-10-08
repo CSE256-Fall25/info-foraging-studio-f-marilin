@@ -2,6 +2,13 @@ header {
     overflow: auto;
 }
 
+header[role=banner]{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #f9f9f9;
+}
+
 #wustl-branding {
     background-color: #a51417;
     height: 2.625rem;
